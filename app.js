@@ -8,7 +8,7 @@ function LCController ($scope,
                        $filter,
                        $injector) {
   $scope.lunch = "Here, please, write your comma-separated dishes of your lunch";
-  $scope.aboutlunch = "=====";
+  $scope.aboutlunch = "";
 
   $scope.checklunch = function () {
     var menu = $scope.lunch;
