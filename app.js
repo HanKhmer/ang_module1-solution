@@ -7,7 +7,7 @@ angular.module('LunchCheck', [])
 function LCController ($scope,
                        $filter,
                        $injector) {
-  $scope.lunch = "Here, please, write your comma-separated dishes of your lunch";
+  $scope.lunch = "";
   $scope.aboutlunch = "";
 
   $scope.checklunch = function () {
